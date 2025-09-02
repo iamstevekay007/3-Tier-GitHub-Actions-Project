@@ -11,7 +11,7 @@ jobs:
     runs-on: Agent-1
 
     steps:
-      - name: Checkout code
+      - name: Checkout code        #clone the source code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
